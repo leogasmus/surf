@@ -1,5 +1,6 @@
 $( function() {
     $('.header__slider').slick({
-        infinity: true
+        infinity: true,
+        fade: true
     })
 });

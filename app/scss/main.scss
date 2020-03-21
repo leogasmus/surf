@@ -1,8 +1,39 @@
 @import 'vars';
 @import 'libs';
 @import 'fonts';
+@import 'global';
 .header{
-    
+
 }
+.header__slider{
+  &-item{
+    height: 100vh;
+    background-image: url(../img/header_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+}
+.slider-item__info{
+  position: absolute;
+  right: 80px;
+  bottom: 116px;
+  text-align: right;
+  color: #ffffff;
+}
+.slider-item__info-suptitle{
+  margin-bottom: 5px;
+}
+.slider-item__info-suptext{
+  margin-bottom: 8px;
+}
+.slider-item__info-title{
+  font-size: 80px;
+  line-height: 86px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
 
 @import 'media';
